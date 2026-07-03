@@ -15,11 +15,14 @@ This preset compresses **17 production-grade rules** into a single 1.4KB payload
 ## 📦 What's inside
 
 ```
-├── AGENTS.md                 # 1.4KB compressed global rules
-└── skills/                   # Custom execution playbooks
-    ├── supabase-setup        # Local/remote migration & schema pipeline
-    ├── vercel-deploy         # Multi-env, rollback, & Nuxt configurations
-    └── framer-workflow       # Component export, sync, & custom overrides
+├── AGENTS.md                          # 1.4KB compressed global rules
+└── skills/                            # Custom execution playbooks
+    ├── supabase-setup                 # Local/remote migration & schema pipeline
+    ├── vercel-deploy                  # Multi-env, rollback, & Nuxt configurations
+    ├── framer-workflow                # Component export, sync, & custom overrides
+    ├── browser-testing-with-devtools  # E2E DOM queries, interactions, and console assertions
+    ├── android-cli                    # ADB controls, build configurations, and diagnostics
+    └── code-simplification            # Guard clauses, complexity refactoring, & DRY passes
 ```
 
 ## ⚙️ Installation
@@ -34,7 +37,7 @@ This preset compresses **17 production-grade rules** into a single 1.4KB payload
 | File | Uncompressed Chars | Compressed Chars | Context Savings |
 |---|---|---|---|
 | Rules Configuration | ~3,700 | **~1,400** | **~62% reduction** |
-| Dynamic Skills Body | ~27,000 | **~5,800** | **~78% reduction** |
+| Dynamic Skills Body | ~35,000 | **~9,800** | **~72% reduction** |
 
 ---
 
