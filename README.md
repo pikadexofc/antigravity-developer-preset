@@ -12,18 +12,75 @@ This preset compresses **17 production-grade rules** into a single 1.4KB payload
 * **Automated sanity steps**: Enforces test creation, security boundary checks, and absolute path standards.
 * **Refining workflows**: Elevates weak prompts internally prior to generating code.
 
-## 📦 What's inside
+---
 
-```
-├── AGENTS.md                          # 1.4KB compressed global rules
-└── skills/                            # Custom execution playbooks
-    ├── supabase-setup                 # Local/remote migration & schema pipeline
-    ├── vercel-deploy                  # Multi-env, rollback, & Nuxt configurations
-    ├── framer-workflow                # Component export, sync, & custom overrides
-    ├── browser-testing-with-devtools  # E2E DOM queries, interactions, and console assertions
-    ├── android-cli                    # ADB controls, build configurations, and diagnostics
-    └── code-simplification            # Guard clauses, complexity refactoring, & DRY passes
-```
+## 📦 What's inside: 50 Core Developer Skills
+
+The repository includes 50 custom-tailored, hyper-compressed execution playbooks (each keeping token footprint to absolute minimums).
+
+### 🛠️ Group 1: Core Development & Testing
+- `test-driven-development` — Red-Green-Refactor, mock isolations.
+- `debugging-and-error-recovery` — Trace root-causes, stack diagnostics.
+- `code-simplification` — Eliminate loops, extract components, DRY.
+- `browser-testing-with-devtools` — Headless page operations, console tests.
+- `android-cli` — ADB emulator & app debugging.
+- `git-workflow-and-versioning` — Rebase vs merge, semantic commits.
+- `code-review-and-quality` — Static analysis passes, complexity caps.
+- `incremental-implementation` — Small diffs, feature flag gating.
+- `source-driven-development` — Doc matching, anti-hallucination references.
+- `spec-driven-development` — Spec-first APIs, test assertions.
+- `unit-testing-best-practices` — Boundary analysis, snapshot assertions.
+
+### 📐 Group 2: Architecture & Design
+- `api-and-interface-design` — REST boundaries, GraphQL, type contracts.
+- `security-and-hardening` — Input sanitization, CSRF, RLS overrides.
+- `performance-optimization` — Virtual lists, debouncing, paint-budgeting.
+- `observability-and-instrumentation` — Structured logs, tracers, spans.
+- `documentation-and-adrs` — Architecture Decision Records, diagrams.
+- `design-tokens-and-systems` — Global variable scaling, contrast rules.
+- `dependency-version-lock` — Strict lock pinning, CVE auditing.
+- `clean-architecture` — Domain separation, service layer mappings.
+- `error-boundary-patterns` — Failure containment, recovery strategies.
+
+### 🗄️ Group 3: Database & Infrastructure
+- `supabase-setup` — Auth schemas, migration resets, storage control.
+- `vercel-deploy` — Link variables, preview rollbacks, edge routing.
+- `docker-containerization` — Multi-stage builds, rootless containers.
+- `database-indexing` — Query optimization, EXPLAIN execution queries.
+- `ci-cd-and-automation` — Automated test gates, deployment hooks.
+- `supabase-row-level-security` — DB policy validation, tenant isolation.
+- `environment-variable-hygiene` — Vault injection, production isolation.
+
+### 📈 Group 4: Productivity, Strategy & Operations
+- `idea-refine` — Brainstorming structures, requirement mapping.
+- `interview-me` — Interactive planning loops, target user alignment.
+- `context-engineering` — Context size control, cache hits optimization.
+- `doubt-driven-development` — Self-adversarial code checks, logic reviews.
+- `planning-and-task-breakdown` — Dependency sorting, roadmap ordering.
+- `shipping-and-launch` — Release verification lists, backup checklists.
+- `using-agent-skills` — Skill orchestration workflows.
+- `workflow-skill-creator` — Converting local logs to reusable scripts.
+- `semantic-commit-lint` — Pre-commit syntax validation.
+
+### 🎨 Group 5: Modern Frontend & Design Systems
+- `framer-workflow` — Component syncing, overrides, XML checks.
+- `ui-ux-pro-max` — Typography, responsive layouts, 4/8dp structures.
+- `accessibility-standards-wcag` — Screen reader labeling, ARIA patterns.
+- `tailwind-layout-discipline` — Layout classes, component utility overrides.
+- `react-state-management` — Context vs state stores, render-budget check.
+- `responsive-design-breakpoints` — Mobile first queries, layout changes.
+- `css-variables-and-themes` — Token styling, runtime shifts.
+- `nextjs-routing-and-layouts` — App router caching, layout segregation.
+
+### ⚙️ Group 6: Advanced Utilities
+- `uv` — Fast Python environment installs.
+- `pubchem-database` — Chem-info targets queries.
+- `literature-search-arxiv` — Scientific publication fetches.
+- `uniprot-database` — Protein schema properties queries.
+- `clinvar-database` — Pathogenicity classification queries.
+- `credentials` — Safe API key prompt bindings.
+
+---
 
 ## ⚙️ Installation
 
@@ -31,13 +88,6 @@ This preset compresses **17 production-grade rules** into a single 1.4KB payload
    - **Antigravity path**: `%USERPROFILE%\.gemini\config\AGENTS.md`
    - **Cursor/Windsurf**: Save as `.cursorrules` or `.agents/AGENTS.md` in your project root.
 2. Drag the custom workflows from `skills/` into your configuration folder to extend the agent's programmatic actions.
-
-## 📈 Optimization Stats
-
-| File | Uncompressed Chars | Compressed Chars | Context Savings |
-|---|---|---|---|
-| Rules Configuration | ~3,700 | **~1,400** | **~62% reduction** |
-| Dynamic Skills Body | ~35,000 | **~9,800** | **~72% reduction** |
 
 ---
 
